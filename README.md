@@ -21,7 +21,7 @@ VTuber **Nimi Nightmare** to every thumbnail.
 ## Notes
 
 - This extension should be compatible with any Firefox / Chromium based browser.
-- This extension was forked from **[MrBeastify YouTube][https://github.com/MagicJinn/MrBeastify-Youtube/tree/main]**.
+- This extension was forked from **[MrBeastify YouTube](https://github.com/MagicJinn/MrBeastify-Youtube/tree/main)**.
 - This extension is unofficial and not affiliated with Nimi Nightmare or YouTube.
 
 <!----------------------------------------------------------------------------->
