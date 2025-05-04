@@ -39,7 +39,7 @@ function ChangeNameInHeading() {
     // Remove "youtube" (case-insensitive) from the extension name and trim
     extensionName = extensionName.replace(/youtube/i, '').trim();
 
-    // Replace "MrBeastify" in the title with the cleaned extension name
+    // Replace "NimiNightmareify" in the title with the cleaned extension name
     const titleElement = document.getElementById('extension-title');
     titleElement.textContent = titleElement.textContent.replace('TITLE', extensionName);
 }

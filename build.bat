@@ -29,7 +29,7 @@ mkdir "%TEMP_FOLDER%"
 :: Copy files and folders individually to avoid cyclic copy
 echo Copying files to the temp directory...
 xcopy "%SOURCE_FOLDER%\manifest.json" "%TEMP_FOLDER%" /Q
-xcopy "%SOURCE_FOLDER%\mrbeastify.js" "%TEMP_FOLDER%" /Q
+xcopy "%SOURCE_FOLDER%\niminightmareify.js" "%TEMP_FOLDER%" /Q
 xcopy "%SOURCE_FOLDER%\images" "%TEMP_FOLDER%\images\" /E /Q
 xcopy "%SOURCE_FOLDER%\icon.png" "%TEMP_FOLDER%"/Q
 xcopy "%SOURCE_FOLDER%\settings.html" "%TEMP_FOLDER%"/Q
@@ -46,7 +46,7 @@ if exist "%TEMP_FOLDER%" rmdir /s /q "%TEMP_FOLDER%"
 mkdir "%TEMP_FOLDER%"
 
 :: Copy files and folders for Chromium
-xcopy "%SOURCE_FOLDER%\mrbeastify.js" "%TEMP_FOLDER%" /Q
+xcopy "%SOURCE_FOLDER%\niminightmareify.js" "%TEMP_FOLDER%" /Q
 xcopy "%SOURCE_FOLDER%\manifest v3.json" "%TEMP_FOLDER%" /Q
 xcopy "%SOURCE_FOLDER%\images" "%TEMP_FOLDER%\images\" /E /Q
 xcopy "%SOURCE_FOLDER%\icon.png" "%TEMP_FOLDER%"/Q
