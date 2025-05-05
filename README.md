@@ -2,6 +2,8 @@
 
 # NimiNightmareify
 
+![Nimi Nightmare](https://github.com/Zeppelins-Forever/NimiNightmareify-Youtube/blob/main/icon.png?raw=true)
+
 Enhance your browsing experience with NimiNightmarefy! 
 Is your browser experience not nightmarish enough? 
 Have an abundance of free time and an absence of yapping? 
