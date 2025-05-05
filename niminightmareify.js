@@ -251,7 +251,7 @@ async function Main() {
     console.info(`${EXTENSION_NAME} will now detect the amount of images. Ignore all the following errors.`)
     await getHighestImageIndex()
         .then(() => {
-            setInterval(applyOverlayToThumbnails, 100);
+            setInterval(applyOverlayToThumbnails, 500);
             console.info(
                 `${EXTENSION_NAME} Loaded Successfully. ${highestImageIndex} images detected. ${blacklistStatus}.`
             );
