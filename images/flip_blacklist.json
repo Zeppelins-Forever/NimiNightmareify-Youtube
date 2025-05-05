@@ -1,4 +1,4 @@
 {
-    "useAlternativeImages": true, 
+    "useAlternativeImages": false,
     "blacklistedImages": [4, 5]
 }
