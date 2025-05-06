@@ -1,6 +1,3 @@
 
 *.zip
-/allcolibri
-buildcolibri.bat
-buildrefoorest.bat
-/refoorest
+*kate-swp
