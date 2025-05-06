@@ -16,7 +16,7 @@ This extension adds the famous VTuber
 **Nimi Nightmare** to every thumbnail.
 
 [comment]: <> ( [![Button Download Firefox]][Download Firefox] )
-[comment]: <> ( [![Button Download Chrome]][Download Chrome/Edge] )
+[![Button Download Chrome]][Download Chrome/Edge]
 
 </div>
 
@@ -24,7 +24,7 @@ This extension adds the famous VTuber
 
 - This extension should be compatible with any Firefox / Chromium based browser.
 - This extension was forked from **[MrBeastify YouTube](https://github.com/MagicJinn/MrBeastify-Youtube/tree/main)**.
-- This extension is unofficial and not affiliated with Nimi Nightmare or YouTube.
+- This extension is unofficial and not affiliated with [Nimi Nightmare](https://www.youtube.com/@niminightmare) or YouTube.
 
 <!----------------------------------------------------------------------------->
 
@@ -33,4 +33,4 @@ This extension adds the famous VTuber
 
 
 [Download Firefox]: http://addons.mozilla.org/en-GB/firefox/addon/youtube-mrbeastify/
-[Download Chrome]: http://chrome.google.com/webstore/detail/youtube-mrbeastify/dbmaeobgdodeimjdjnkipbfhgeldnmeb
+[Download Chrome]: https://chromewebstore.google.com/detail/youtube-niminightmareify/bbahnmbbdlijjcpoabmlolamkbeifjgj
