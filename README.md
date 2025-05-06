@@ -32,7 +32,7 @@ This extension adds the famous VTuber
 1. Make sure you have 7zip installed, as Microsoft built-in compression tools are often quite wonky, and the install.
 2. Download this project by going to Code > Download ZIP, and unzipping the file into a folder once it's downloaded.
 3. Locate the file `build.bat` in the uncompressed folder, and run it. Again, it will need 7zip installed on your system.
-4. If it ran successfully, you will have two files called `Chrome.zip` and `Firefox.zip`, these are the extension files for Chromium and Firefox-based browsers, subsequently.
+4. If it ran successfully, you will have two files called `Chromium.zip` and `Firefox.zip`, these are the extension files for Chromium and Firefox-based browsers, subsequently.
 
 ### Installing the extension in Firefox
 1. Open your Firefox-based browser.
@@ -41,10 +41,10 @@ This extension adds the famous VTuber
 4. Go to YouTube and see if it worked!
 
 ### Installing the extension in Chrome / Chromium / Edge
-1. UnZIP the `Chrome.zip` file somewhere convenient that you'll be able to find again.
+1. UnZIP the `Chromium.zip` file somewhere convenient that you'll be able to find again.
 2. In your Chromium-based browser, paste `edge://extensions/` in your search bar, this will take you to the extension page.
 3. Turn on "Developer Mode." This will allow you to sideload extensions.
-4. Click "Load Unpacked" and select the directory where you put the contents of `Chrome.zip`.
+4. Click "Load Unpacked" and select the directory where you put the contents of `Chromium.zip`.
 5. Go to YouTube and see if it worked!
 
 <!----------------------------------------------------------------------------->
