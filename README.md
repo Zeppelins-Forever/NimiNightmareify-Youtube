@@ -16,7 +16,6 @@ This extension adds the famous VTuber
 **Nimi Nightmare** to every thumbnail.
 
 [![Button Download Firefox]][Download Firefox]
-
 [![Button Download Chrome]][Download Chrome]
 
 </div>
