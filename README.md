@@ -15,7 +15,7 @@ Haven't heard enough UUUUUUU's in your life?
 This extension adds the famous VTuber 
 **Nimi Nightmare** to every thumbnail.
 
-[![Button Download Firefox]][Download Firefox]
+[![Button Download Firefox]][Download Firefox]  
 [![Button Download Chrome]][Download Chrome]
 
 </div>
