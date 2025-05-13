@@ -15,7 +15,7 @@ Haven't heard enough UUUUUUU's in your life?
 This extension adds the famous VTuber 
 **Nimi Nightmare** to every thumbnail.
 
-[comment]: <> ( [![Button Download Firefox]][Download Firefox] )
+[![Button Download Firefox]][Download Firefox]
 
 [![Button Download Chrome]][Download Chrome]
 
@@ -53,5 +53,5 @@ This extension adds the famous VTuber
 [Button Download Chrome]: https://img.shields.io/badge/Chrome-4285F4?style=for-the-badge&logoColor=white&logo=GoogleChrome
 
 
-[Download Firefox]: http://addons.mozilla.org/en-GB/firefox/addon/youtube-mrbeastify/
+[Download Firefox]: https://addons.mozilla.org/en-US/firefox/addon/youtube-niminightmareify/
 [Download Chrome]: https://chromewebstore.google.com/detail/youtube-niminightmareify/bbahnmbbdlijjcpoabmlolamkbeifjgj
