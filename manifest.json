@@ -1,25 +1,21 @@
 {
-    "manifest_version": 2,
-    "name": "YouTube NimiNightmareify",
-    "version": "1.0.4",
-    "icons": {
-        "128": "icon.png"
-    },
-    "description": "Modify YouTube thumbnails to include Nimi Nightmare",
-    "browser_action": {
-        "default_popup": "settings.html"
-    },
-    "permissions": [
-        "storage",
-        "*://*.youtube.com/*"
-    ],
-    "content_scripts": [{
-        "matches": ["*://*.youtube.com/*"],
-        "js": ["niminightmareify.js"],
-        "run_at": "document_idle"
-    }],
-    "web_accessible_resources": [
-        "images/*.png",
-        "images/*.json"
-    ]
+  "manifest_version": 2,
+  "name": "YouTube NimiNightmareify",
+  "version": "1.0.5",
+  "icons": {
+    "128": "icon.png"
+  },
+  "description": "Modify YouTube thumbnails to include Nimi Nightmare",
+  "browser_action": {
+    "default_popup": "settings.html"
+  },
+  "permissions": ["storage", "*://*.youtube.com/*"],
+  "content_scripts": [
+    {
+      "matches": ["*://*.youtube.com/*"],
+      "js": ["niminightmareify.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "web_accessible_resources": ["images/*.png", "images/*.json"]
 }
