@@ -8,6 +8,7 @@ Enhance your browsing experience with NimiNightmarefy!
 Is your browser experience not nightmarish enough? 
 Have an abundance of free time and an absence of yapping? 
 Are you having trouble finding your oshi? 
+Fond of medical malpractice? 
 Haven't heard enough UUUUUUU's in your life?
 
 **Fear no more.**
