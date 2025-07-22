@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "YouTube NimiNightmareify",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "icons": {
     "128": "icon.png"
   },
