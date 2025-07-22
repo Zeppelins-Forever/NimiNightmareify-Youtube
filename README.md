@@ -27,11 +27,11 @@ This extension adds the famous gaming idol tapir VTuber
 - This extension was forked from **[MrBeastify YouTube](https://github.com/MagicJinn/MrBeastify-Youtube/tree/main)**.
 - This extension is unofficial and not affiliated with [Nimi Nightmare](https://www.youtube.com/@niminightmare) or YouTube.
 
-## How to Build the Extension Automatically (Windows)
+## How to Build the Extension Automatically
 
-1. Make sure you have 7zip installed, as Microsoft built-in compression tools are often quite wonky, and the install.
+1. If you are on Windows, make sure you have 7zip installed, as Microsoft built-in compression tools are often quite wonky, and the install. For macOS and Linux, 'zip' is usually pre-installed.
 2. Download this project by going to Code > Download ZIP, and unzipping the file into a folder once it's downloaded.
-3. Locate the file `build.bat` in the uncompressed folder, and run it. Again, it will need 7zip installed on your system.
+3. Locate the files `Windows-build.bat` or `macOS-Linux-build.sh` in the uncompressed folder, and run the one for your operating system. For Windows users, just double-click the file to run it. For macOS users, you may need to run `chmod +x macOS-Linux-build.sh` in the terminal (while in the folder the script is located) before running the script to make it executable. You can then run it in the terminal by typing `./macOS-Linux-build.sh`.
 4. If it ran successfully, you will have two files called `Chromium.zip` and `Firefox.zip`, these are the extension files for Chromium and Firefox-based browsers, subsequently.
 
 ### Installing the extension in Firefox
@@ -42,7 +42,7 @@ This extension adds the famous gaming idol tapir VTuber
 
 ### Installing the extension in Chrome / Chromium / Edge
 1. UnZIP the `Chromium.zip` file somewhere convenient that you'll be able to find again.
-2. In your Chromium-based browser, paste `edge://extensions/` in your search bar, this will take you to the extension page.
+2. In your Chromium-based browser, paste `browser-name://extensions/` in your search bar, this will take you to the extension page (ex. MS Edge would be `edge://extensions/`, Chrome would be `chrome://extensions/`, Vivaldi would be `vivaldi://extensions/`, etc).
 3. Turn on "Developer Mode." This will allow you to sideload extensions.
 4. Click "Load Unpacked" and select the directory where you put the contents of `Chromium.zip`.
 5. Go to YouTube and see if it worked!
