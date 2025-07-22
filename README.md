@@ -31,7 +31,7 @@ This extension adds the famous gaming idol tapir VTuber
 
 1. If you are on Windows, make sure you have 7zip installed, as Microsoft built-in compression tools are often quite wonky, and the install. For macOS and Linux, 'zip' is usually pre-installed.
 2. Download this project by going to Code > Download ZIP, and unzipping the file into a folder once it's downloaded.
-3. Locate the files `Windows-build.bat` or `macOS-Linux-build.sh` in the uncompressed folder, and run the one for your operating system. For Windows users, just double-click the file to run it. For macOS users, you may need to run `chmod +x macOS-Linux-build.sh` in the terminal (while in the folder the script is located) before running the script to make it executable. You can then run it in the terminal by typing `./macOS-Linux-build.sh`.
+3. Locate the files `build-Windows.bat` or `build-macOS-Linux.sh` in the uncompressed folder, and run the one for your operating system. For Windows users, just double-click the file to run it. For macOS users, you may need to run `chmod +x build-macOS-Linux.sh` in the terminal (while in the folder the script is located) before running the script to make it executable. You can then run it in the terminal by typing `./build-macOS-Linux.sh`.
 4. If it ran successfully, you will have two files called `Chromium.zip` and `Firefox.zip`, these are the extension files for Chromium and Firefox-based browsers, subsequently.
 
 ### Installing the extension in Firefox
