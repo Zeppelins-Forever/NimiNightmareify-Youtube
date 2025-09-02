@@ -46,7 +46,7 @@ setup_temp_dir() {
 copy_firefox_files() {
     echo "Copying files to the temp directory for Firefox..."
     cp "$SOURCE_FOLDER/manifest.json" "$TEMP_FOLDER/"
-    cp "$SOURCE_FOLDER/niminightmareify.js" "$TEMP_FOLDER/"
+    cp "$SOURCE_FOLDER/mrbeastify.js" "$TEMP_FOLDER/"
     cp -r "$SOURCE_FOLDER/images" "$TEMP_FOLDER/"
     cp "$SOURCE_FOLDER/icon.png" "$TEMP_FOLDER/"
     cp "$SOURCE_FOLDER/settings.html" "$TEMP_FOLDER/"
@@ -56,7 +56,7 @@ copy_firefox_files() {
 # Function to copy files for Chromium
 copy_chromium_files() {
     echo "Copying files to the temp directory for Chromium..."
-    cp "$SOURCE_FOLDER/niminightmareify.js" "$TEMP_FOLDER/"
+    cp "$SOURCE_FOLDER/mrbeastify.js" "$TEMP_FOLDER/"
     cp "$SOURCE_FOLDER/manifest v3.json" "$TEMP_FOLDER/"
     cp -r "$SOURCE_FOLDER/images" "$TEMP_FOLDER/"
     cp "$SOURCE_FOLDER/icon.png" "$TEMP_FOLDER/"
@@ -81,29 +81,29 @@ create_zip() {
 main() {
     # Check if zip is available
     check_zip
-    
+
     # Build Firefox extension
     echo "Building Firefox extension..."
     setup_temp_dir
     copy_firefox_files
     create_zip "$ZIP_NAME_FIREFOX"
-    
+
     # Build Chromium extension
     echo "Building Chromium extension..."
     setup_temp_dir
     copy_chromium_files
-    
+
     # Rename manifest for Chromium
     echo "Preparing files for Chromium zip..."
     mv "$TEMP_FOLDER/manifest v3.json" "$TEMP_FOLDER/manifest.json"
-    
+
     create_zip "$ZIP_NAME_CHROMIUM"
-    
+
     # Cleanup
     if [ -d "$TEMP_FOLDER" ]; then
         rm -rf "$TEMP_FOLDER"
     fi
-    
+
     echo "All operations completed successfully."
     echo "Press Enter to continue..."
     read
